@@ -46,7 +46,7 @@ view model =
         [ h1 [] [ text "Index" ]
         , a
             [ class "link-button"
-            , href "other-page"
+            , href "other-page.html"
             ]
             [ text "Link"
             , span

@@ -43,10 +43,10 @@ init flags =
 view : Model -> Html Msg
 view model =
     div [ class "container" ]
-        [ h1 [] [ text "Another page clicked!" ]
+        [ h1 [] [ text "Another page loaded! 😢" ]
         , a
             [ class "link-button"
-            , href "/"
+            , href "/index.html"
             ]
             [ text "Go back" ]
         ]

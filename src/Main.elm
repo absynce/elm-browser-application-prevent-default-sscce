@@ -160,7 +160,9 @@ routeTo url model =
             oneOf
                 [ route top
                     (updateIndex model (Index.init ()))
-                , route (s "other-page")
+                , route (s "index.html")
+                    (updateIndex model (Index.init ()))
+                , route (s "other-page.html")
                     (updateOtherPage model (OtherPage.init ()))
                 ]
     in
