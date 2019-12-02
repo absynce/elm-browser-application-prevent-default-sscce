@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style media="screen">
+      .container {
+        margin: 0 auto;
+        max-width: 800px;
+      }
+      .link-button {
+        border: solid 1px #700;
+        display: block;
+        padding: 10px;
+        width: 100%;
+      }
+
+      button {
+        padding: 10px;
+      }
+    </style>
+    <script src="/elm.js"></script>
+  </head>
+  <body class="container">
+    <h1>On index.html</h1>
+    <div id="app"></div>
+    <script>
+      Elm.Main.init({
+        node: document.getElementById("app")
+      });
+    </script>
+  </body>
+</html>
